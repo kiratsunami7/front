@@ -1,0 +1,23 @@
+.table-animation {
+  animation: fadeIn 1s;
+}
+
+table {
+  max-width: 800px;
+  margin: 0 auto; /* centers the table horizontally */
+  text-align: center; /* centers the table vertically */
+}
+
+
+th, td {
+  width: 25%;
+}
+
+@keyframes fadeIn {
+  from {
+    opacity: 0;
+  }
+  to {
+    opacity: 1;
+  }
+}
